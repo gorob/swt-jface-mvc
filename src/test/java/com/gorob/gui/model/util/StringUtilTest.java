@@ -81,11 +81,11 @@ public class StringUtilTest {
 
 	@Test
 	public void testConcatMitZeilenumbruch() throws Exception {
-	    assertEquals("aaa\r\nbbb\r\nccc\r\n", StringUtil.concatMitZeilenumbruch(Arrays.asList(new String[] {"aaa", "bbb", "ccc"})));
+	    assertEquals("aaa"+System.lineSeparator()+"bbb"+System.lineSeparator()+"ccc"+System.lineSeparator(), StringUtil.concatMitZeilenumbruch(Arrays.asList(new String[] {"aaa", "bbb", "ccc"})));
 		assertEquals("", StringUtil.concatMitZeilenumbruch(Arrays.asList(new String[] {})));
-		assertEquals("\r\n\r\n", StringUtil.concatMitZeilenumbruch(Arrays.asList(new String[] {"", null, ""})));
+		assertEquals(System.lineSeparator() + System.lineSeparator(), StringUtil.concatMitZeilenumbruch(Arrays.asList(new String[] {"", null, ""})));
 		assertEquals("", StringUtil.concatMitZeilenumbruch(Arrays.asList(new String[] {null, null, null})));
-		assertEquals("aaa\r\n\r\nbbb\r\n", StringUtil.concatMitZeilenumbruch(Arrays.asList(new String[] {null, "aaa", "", "bbb"})));
+		assertEquals("aaa"+System.lineSeparator()+System.lineSeparator()+"bbb" + System.lineSeparator(), StringUtil.concatMitZeilenumbruch(Arrays.asList(new String[] {null, "aaa", "", "bbb"})));
 	}
 
 	@Test
@@ -106,11 +106,11 @@ public class StringUtilTest {
 
 	@Test
 	public void testConcatMitZeilenumbruchOhneAmEnde() throws Exception {
-	    assertEquals("aaa\r\nbbb\r\nccc", StringUtil.concatMitZeilenumbruchOhneAmEnde(Arrays.asList(new String[] {"aaa", "bbb", "ccc"})));
+	    assertEquals("aaa"+System.lineSeparator()+"bbb"+System.lineSeparator()+"ccc", StringUtil.concatMitZeilenumbruchOhneAmEnde(Arrays.asList(new String[] {"aaa", "bbb", "ccc"})));
 		assertEquals("", StringUtil.concatMitZeilenumbruchOhneAmEnde(Arrays.asList(new String[] {})));
 		assertEquals("", StringUtil.concatMitZeilenumbruchOhneAmEnde(Arrays.asList(new String[] {"", null, ""})));
 		assertEquals("", StringUtil.concatMitZeilenumbruchOhneAmEnde(Arrays.asList(new String[] {null, null, null})));
-		assertEquals("aaa\r\n\r\nbbb", StringUtil.concatMitZeilenumbruchOhneAmEnde(Arrays.asList(new String[] {null, "aaa", "", "bbb"})));
+		assertEquals("aaa"+System.lineSeparator() + System.lineSeparator()+"bbb", StringUtil.concatMitZeilenumbruchOhneAmEnde(Arrays.asList(new String[] {null, "aaa", "", "bbb"})));
 	}
 	
 	@Test
