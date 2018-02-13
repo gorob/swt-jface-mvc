@@ -109,7 +109,7 @@ public class ListViewerBinding extends AbstractBinding {
 		final ComboViewer comboViewer = (ComboViewer)getTarget();
 		comboViewer.getCombo().clearSelection();					
 		updateTargetToModel();  // Eingaben in Model schreiben lassen
-		updateModelToTarget();  // Änderungen Model-Wert (z.B. Leerzeichen per Trim raus) sichtbar machen		
+		updateModelToTarget();  // Ã„nderungen Model-Wert (z.B. Leerzeichen per Trim raus) sichtbar machen		
 	}
 	
 	protected boolean isEditierbarerComboViewer() {
