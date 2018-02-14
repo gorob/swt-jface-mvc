@@ -92,7 +92,7 @@ public abstract class AbstractDialog<C extends AbstractController, V extends Com
 	}
 	
 	protected void saveDataBeforeClose() {
-		// in Subclass bei Bedarf überschreiben
+		// in Subclass bei Bedarf Ã¼berschreiben
 	}
 
 	@Override

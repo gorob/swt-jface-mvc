@@ -127,7 +127,7 @@ public class TextBinding extends AbstractBinding {
 			    	if (getTextUpdateStrategy().isUpdateOnFocusLostOrEnter()) {
 				    	if (e.keyCode==SWT.CR) {
 							updateTargetToModel();  // Eingaben in Model schreiben lassen
-							updateModelToTarget();  // Änderungen Model-Wert (z.B. Leerzeichen per Trim raus) sichtbar machen
+							updateModelToTarget();  // Ã„nderungen Model-Wert (z.B. Leerzeichen per Trim raus) sichtbar machen
 							
 			    			getTarget().setSelection(getTarget().getText().length());
 			    			
@@ -147,7 +147,7 @@ public class TextBinding extends AbstractBinding {
 					}
 					
 					updateTargetToModel();  // Eingaben in Model schreiben lassen
-					updateModelToTarget();  // Änderungen Model-Wert (z.B. Leerzeichen per Trim raus) sichtbar machen
+					updateModelToTarget();  // Ã„nderungen Model-Wert (z.B. Leerzeichen per Trim raus) sichtbar machen
 					
 					if (getOnUpdateModelToTargetAction()!=null) {
 						getOnUpdateModelToTargetAction().execute();								

@@ -19,52 +19,26 @@
 			<id>maven-eclipse-jface</id>
 			<url>http://www.jabylon.org/maven</url>
 		</repository>
-		
+
 	</repositories>
-	
+
 	<properties>
 		<swt.version>4.6.1</swt.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
-			
-			<dependency>
-				<artifactId>jface</artifactId>
-				<groupId>org.eclipse</groupId>
-				<version>3.9.1</version>
-			</dependency>
-			<!-- 
-			<dependency>
-				<groupId>org.eclipse.swt</groupId>
-				<artifactId>org.eclipse.swt.win32.win32.x86</artifactId>
-				<version>${swt.version}</version>
-				<classifier>debug</classifier>
-			</dependency>
-			<dependency>
-				<groupId>org.eclipse.swt</groupId>
-				<artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
-				<version>${swt.version}</version>
-			</dependency>
-			 -->
-			<!-- 
-			<dependency>
-				<groupId>org.eclipse.swt</groupId>
-				<artifactId>org.eclipse.swt.gtk.linux.x86</artifactId>
-				<version>${swt.version}</version>
-			</dependency>
-			 -->
-			<dependency>
-				<groupId>org.eclipse.swt</groupId>
-				<artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
-				<version>${swt.version}</version>
-			</dependency>
-			<!-- 
-			<dependency>
-				<groupId>org.eclipse.swt</groupId>
-				<artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
-				<version>${swt.version}</version>
-			</dependency>
-			 -->
+
+		<dependency>
+			<artifactId>jface</artifactId>
+			<groupId>org.eclipse</groupId>
+			<version>3.9.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.swt</groupId>
+			<artifactId>${swt.artifactId}</artifactId>
+			<version>${swt.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -94,5 +68,45 @@
 			</plugin>
 		</plugins>
 	</build>
+
+
+	<profiles>
+		<profile>
+			<id>unix-amd64</id>
+			<activation>
+				<os>
+					<family>unix</family>
+					<arch>amd64</arch>
+				</os>
+			</activation>
+			<properties>
+				<swt.artifactId>org.eclipse.swt.gtk.linux.x86_64</swt.artifactId>
+			</properties>
+		</profile>
+		<profile>
+			<id>windows-x86</id>
+			<activation>
+				<os>
+					<family>windows</family>
+					<arch>x86</arch>
+				</os>
+			</activation>
+			<properties>
+				<swt.artifactId>org.eclipse.swt.win32.win32.x86</swt.artifactId>
+			</properties>
+		</profile>
+		<profile>
+			<id>windows-x86_64</id>
+			<activation>
+				<os>
+					<family>windows</family>
+					<arch>x86_64</arch>
+				</os>
+			</activation>
+			<properties>
+				<swt.artifactId>org.eclipse.swt.win32.win32.x86_64</swt.artifactId>
+			</properties>
+		</profile>
+	</profiles>
 
 </project>
