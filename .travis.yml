@@ -7,9 +7,10 @@ jdk:
 
 addons: 
   sonarcloud:
-      organization: "uniqueck-github"
+      organization: "gorob-github"
       token:
-        secure: S5WdBY2dmKD9+Rqx+31SxT+lJkiQ74mEsU3rE/T0qgU1ffWKm2NsqHygCQ3jrt39Y6N3tlkGBjVirqVITcLSVWVUh+BtTZL2nCed+eJzkoP5b/XgMiJ/fOi4gU7y11BNTHse6lED05RIM4nW736pgiW4PJzP8fNqJEC2f6M4u2BvqTpXka7ZBoBnsuOfiHaBchKT/rjOqLag3wCrDWM5mxAE3lEBqT9l/whjiwsqw2A12bNm3Wsqz+dqaF5bGyirAncL003R4ayoqzH7LogkvvlPv3wr8IpB9IJhInrL1htbJPGTix4aMQTyhmp+Ij22V9OQB4CuFwSQRReO1Mm4kGVwlEfsLq78pLqDYJCuvqbyy+JgoFm4xuyKBQdoxBCx40zTJGHm8xi8wWC1MSZJIgzeMYVT2Zx4eBnV/5N8dEozDrViRdan0MX38smyvd/WCn5OnASbcyVFynuugREGiLbQHGn4DmWwl1JKGgh2ZzY9H7eV5d5+RJeB8nfzh3xk1MtnO3Ii5RPInasOOQg496fJ2CNaxMyPP1oRocoP5nzlAEROwD8BqCeikmlQOXAUVTCvcu1J5EeRQEoba+SH3reJqAM2tMryYt6hGG9mSNoldvJS8H2tAwX9tZiRNsGCvR9JuKYkm9uIllO8/jnlFlCQ6ZkP9sCLvTdCqLRIQfg=
+        secure: svTuffwiGFHLZn+6bEtHDErCU2BwVw7ERmvvcmrD/1EATmg9+2HuA/Qq/9dYnYXhMxrYB7PcT45zkrwjXwpek8npaPzSIU6noN3Y/qWhvMJ4bB22LD56W37lJ+NUW+HP7nJF86/+pPIEWZszJ6dW/b1TFljl+yBjnwnOnS2k+5ypjNp7uBizV4uhb/KiHu2IHnk962J5N72AsgSCqg4l4dFXA0M7aroT+ACJGt08Vy+rUT5+ifR3MntphG/+8OLQLxJ/c4z6qG2f3bf+3du8UeVyg4YATnc2rz+5HuOe2bT4T7Hp8r1f5/EYYNBV6Je7VHmJgpsRwdAOShpi4LX+KW0EO/YfvV6uXVF5aKGJvMAeQIqyXLsgOMcJj+rbREiSMcEw4Rka3H/S8GvBaYKW6qXUy7R3fTiiXxgoN9/rZlqMCGJ9wt0GBaQuJG2ISYoi4yao38iDi+S+lh1K+m+BtXUkvAB5aafiZLlvRtFMCp4EwolnV289QgJ8ZwEsJ2W2Jx7tVDlZgkgkEK3jOFW2wy68j89WyatWaEIHIyi4o/T6+uU6mkamns4MPQ5c+75YZ79nk/MkXDd49gEMIzQFJrZtk6Qj+cxXNocVU3ckZIU5ktt9GH2+ZftJ0CRbuGznLHEOFw/ycy/4R3M5TrnAPOjH9NQjh2sknk9NbQhlwuI=
+      
       branches:
         - master
 
