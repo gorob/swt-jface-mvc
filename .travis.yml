@@ -9,7 +9,7 @@ addons:
   sonarcloud:
       organization: "gorob-github"
       token:
-        secure: svTuffwiGFHLZn+6bEtHDErCU2BwVw7ERmvvcmrD/1EATmg9+2HuA/Qq/9dYnYXhMxrYB7PcT45zkrwjXwpek8npaPzSIU6noN3Y/qWhvMJ4bB22LD56W37lJ+NUW+HP7nJF86/+pPIEWZszJ6dW/b1TFljl+yBjnwnOnS2k+5ypjNp7uBizV4uhb/KiHu2IHnk962J5N72AsgSCqg4l4dFXA0M7aroT+ACJGt08Vy+rUT5+ifR3MntphG/+8OLQLxJ/c4z6qG2f3bf+3du8UeVyg4YATnc2rz+5HuOe2bT4T7Hp8r1f5/EYYNBV6Je7VHmJgpsRwdAOShpi4LX+KW0EO/YfvV6uXVF5aKGJvMAeQIqyXLsgOMcJj+rbREiSMcEw4Rka3H/S8GvBaYKW6qXUy7R3fTiiXxgoN9/rZlqMCGJ9wt0GBaQuJG2ISYoi4yao38iDi+S+lh1K+m+BtXUkvAB5aafiZLlvRtFMCp4EwolnV289QgJ8ZwEsJ2W2Jx7tVDlZgkgkEK3jOFW2wy68j89WyatWaEIHIyi4o/T6+uU6mkamns4MPQ5c+75YZ79nk/MkXDd49gEMIzQFJrZtk6Qj+cxXNocVU3ckZIU5ktt9GH2+ZftJ0CRbuGznLHEOFw/ycy/4R3M5TrnAPOjH9NQjh2sknk9NbQhlwuI=
+        secure: MtL3cWt7by0AM1oWh60db7Lo3TImix08KhW2z/udB9xoh8sPW2Qj/mXomRGzr78UxiAY6AnWofrXi1r3WCSxm1JsuXqh8w+Isu4fICbw+jzgNZRVdpd/aq2vFmeYkeLmmll+8MdRUpQELmhnMIfcEuruXPOxa7dOc2lDJN/vGnDB3jQAhX+7/EmGT2XP+uvN95ipxZgBaIKK8WtJSjkuRIicE7u4g3MA5QEscD849jIwiJpe92exPepRjcbfth0d6IM+xzQMF1jWzVauX8+dI5ykV6P1xXjgdNU82SZBkjo757TrDux+Y2JGt80TjMLI/Rl0CKLDbumNwYUNcbS7D/suzGi07wUeF55N0fYh5OPeg2/Vuh1Uj/MX+KdoRHbTN9wKHQpdr9CVe16N0Au8l3yT1UUl/M2apovMEJynnxMnNe4epHm1nWieTpRDi/i1Whl/UOJx/uaIpHqmwfjmJDyBv1n5szwNPhlqdde1AedvHwV8IezbzwASjtD04ckd5YfIYS8XCphKwOBr+jlj36To5LeluBU4ECSzQtz259DRLzImRWxxrqfvVM9tJURBqM6XGL8vTxjpKBK45oNo8lDJ9tD3l6py5ZFm7WDtSHLq28D+zCUxKjwPPV9EPBC8gfvma1KOBBK07oEh3IUbznR8IWTMf7seRDe29lUQhAo=
       
       branches:
         - master
