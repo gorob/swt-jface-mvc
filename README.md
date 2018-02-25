@@ -1,6 +1,5 @@
-# swt-jface-mvc
+# SWT JFace MVC framework
 
-[![Build Status](https://travis-ci.org/gorob/swt-jface-mvc.svg?branch=master)](https://travis-ci.org/gorob/swt-jface-mvc)
-
+[![Build Status](https://travis-ci.org/gorob/swt-jface-mvc.svg?branch=master)](https://travis-ci.org/gorob/swt-jface-mvc)[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.gorob.swt-jface-mvc%3Aswt-jface-mvc&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.gorob.swt-jface-mvc%3Aswt-jface-mvc)[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=com.gorob.swt-jface-mvc%3Aswt-jface-mvc&metric=bugs)](https://sonarcloud.io/project/issues?id=com.gorob.swt-jface-mvc%3Aswt-jface-mvc&resolved=false&types=BUG)[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.gorob.swt-jface-mvc%3Aswt-jface-mvc&metric=coverage)](https://sonarcloud.io/component_measures?id=com.gorob.swt-jface-mvc%3Aswt-jface-mvc&metric=Coverage)
 
 Small framework for building an SWT/JFace Application with MVC-Pattern and Databinding
